@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +17,8 @@
     "url": "https://github.com/Csillag61/GIT/issues"
   },
   "homepage": "https://github.com/Csillag61/GIT#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
